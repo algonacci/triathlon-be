@@ -1,0 +1,5 @@
+CREATE TABLE revoked_tokens (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    token TEXT NOT NULL,
+    revoked_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+)
